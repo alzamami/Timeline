@@ -1,6 +1,6 @@
 import "./App.css";
 import { Container, MainContainer, Title, UnorderedList } from "./styles";
-import { TLData } from "./TimelineData";
+import TimelineList from "./components/TimelineList";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <Container>
         <Title>Zamami's timeline</Title>
         <UnorderedList>
-          <TLData />
+          <TimelineList />
         </UnorderedList>
       </Container>
     </MainContainer>

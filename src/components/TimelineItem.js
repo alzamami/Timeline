@@ -1,6 +1,6 @@
-import { Year, WhatHappened, List } from "./styles";
+import { Year, WhatHappened, List } from "../styles";
 
-export const DataList = (props) => {
+const TimelineItem = (props) => {
   return (
     <List>
       <Year>{props.year}</Year>
@@ -8,3 +8,5 @@ export const DataList = (props) => {
     </List>
   );
 };
+
+export default TimelineItem;
